@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="StyleSheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="StyleSheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+    <title>Juan Manuel Palma | DWN2A | 2020</title>
+</head>
+<body>
+    <header class="container">               
+        <h1 id="logo">Grønnhjort</h1>
+        <div class="row">
+            <nav class="col navbar navbar-expand-md navbar-dark" id="barramenu">
+                <button class="navbar-toggler ml-auto" 
+                        type="button" 
+                        data-toggle="collapse" 
+                        data-target="#barra" 
+                        aria-controls="barra" 
+                        aria-expanded="false" 
+                        aria-label="Menú Hamburguesa">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barra">
+                   
+                    <!-- A los botones les agregamos el atributo data-tiempo con un valor numérico expresado en milisegundo SIN UNIDAD DE MEDIDA y varía el tiempo del efecto (por default son 2000, es decir, 2 segundos). Se puede aplicar un tiempo distinto a cada vínculo, si fuera necesario. -->
+                    
+                    <ul class="navbar-nav text-center ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Why" 
+                            data-ancla="true" 
+                            data-tiempo="500">¿Por qué?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Nosotros" 
+                            data-ancla="true" 
+                            data-tiempo="500">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Media" 
+                            data-ancla="true" 
+                            data-tiempo="800">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto" 
+                            data-ancla="true" 
+                            data-tiempo="1000">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+<section id="banner"> 
+    <div class="container">
+        <div class="row">
+            <div id="galeria" class="carousel slide" data-ride="carousel">            
+                <ol class="carousel-indicators">
+                    <li data-target="#galeria" data-slide-to="0" class="active"></li>
+                    <li data-target="#galeria" data-slide-to="1"></li>
+                    <li data-target="#galeria" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="img/banner1.jpg" class="d-block w-100 img-fluid"> 
+                            <source media="(min-width: 577px)" srcset="img/banner1_tablet.jpg" class="d-block w-100 img-fluid">
+                            <img class="d-block w-100 img-fluid" src="img/banner1_celu.jpg" alt="banner1">
+                        </picture>        
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="img/banner2.jpg" class="d-block w-100 img-fluid"> 
+                            <source media="(min-width: 577px)" srcset="img/banner2_tablet.jpg" class="d-block w-100 img-fluid">
+                            <img class="d-block w-100 img-fluid" src="img/banner2_celu.jpg" alt="banner2">
+                        </picture>                            
+                    </div>
+                    <div class="carousel-item"> 
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="img/banner3.jpg" class="d-block w-100 img-fluid"> 
+                            <source media="(min-width: 577px)" srcset="img/banner3_tablet.jpg" class="d-block w-100 img-fluid">
+                            <img class="d-block w-100 img-fluid" src="img/banner3_celu.jpg" alt="banner3">
+                        </picture>    
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#galeria" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+
+                <a class="carousel-control-next" href="#galeria" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="Why" class="container">
+        <div class="row center-content-md-around text-center pb-3">            
+            <article class="col-12 col-sm-6 col-md-4">
+                <i class="fas fa-paw"></i>                                   
+                <h3>Sin animales</h3>
+                <p >Nuestros productos son elaborados bajo rigurosas investigaciones, junto a varios organistmos de cuidado de animales, para garantizar que es 100% vegano como todo producto de Flying Dog Brewery.</p>                
+            </article>
+            <article class="col-12 col-sm-6 col-md-4">
+                <i class="fas fa-leaf"></i>
+                <h3>Menos contaminante</h3>
+                <p>¿Creías que eramos sólo veganos? ¡No! Cada producto representa nuestro compromiso por ser un productor amigable con el medioambiente. Nuestras plantas son autoabastecidas con paneles solares.</p>                
+            </article>
+            <article class="col-12 col-sm-6 col-md-4">
+                <i class="fas fa-truck-loading"></i>
+                <h3>Pequeños productores</h3>
+                <p>Nuestros proveedores son en su mayoría pequeños productores, asegurando amor y cuidado en la producción de la materia prima, y como resultado, un producto de calidad.</p>
+            </article>            
+            <article class="col-12 col-sm-6 col-md-4">
+                <i class="fas fa-recycle"></i>
+                <h3>100% Reciclado</h3>
+                <p>Tanto la botella, como etiquetas y cajas, son 100% productos reciclados. De ahí los múltiples colores de nuestras botellas!</p>
+                <a href="#" class="botonmas btn btn-primary btn-block"><b>Ver video</b></a>
+            </article>
+            <article class="col-12 col-sm-6 col-md-4">
+                <i class="fas fa-trophy"></i>                                    
+                <h3>Reconocida mundialmente</h3>
+                <p>Flying Dog Brewery es una cerveza con 30 años en el mercado. Conocida por su rebeldía, sabor y etiquetas artísticas, está entre las mejores cervezas boutique.</p>
+                <a href="#" class="botonmas btn btn-primary btn-block"><b>Ver más</b></a>                                               
+            </article>
+            <article class="col-12 col-sm-6 col-md-4">
+                <i class="fas fa-cocktail"></i>
+                <h3>Ser vegano es divertido!</h3>
+                <p>Todos los meses hay una nueva receta usando Grønnhjort como ingrediente. Desde cupcakes veganos, tragos y comidas.</p>                                        
+                <a href="#" class="botonmas btn btn-primary btn-block"><b>Ver recetas</b></a>
+            </article>                
+        </div>
+    </section>
+    <section id="Nosotros" class="container">
+        <div class="row center-content-md-around pb-3">
+            <p class="display-4">NUESTRO VIAJE E HISTORIA.</p>
+            <article class="col-12">                   
+                <p>Hace más de 30 años, un grupo de amigos consumidores de oxígeno -y cerveza- se juntaron en un hotel de Pakistán luego de una sesión de hiking. Iniciandosé en el mundo vegano, decidieron embarcarse en el proyecto de crear una cerveza vegana que sea la otra cara respecto a lo que uno acostumbra por "vegano". Algo con actitud, rebeldía y poder decir lo que creen y piensan. Así es como nació The Flying Dog. Hoy, con estos principios como parte de nuestra cultura, tenemos una amplia variedad de productos para todos. Nuestro amor por la aventura, los viajes y animales nos llevó a buscar nuevos productos en la naturaleza que cumplan con nuestros requisitos como veganos, teniendo como consecuencia una amplia variedad de productos.</p>                                                                               
+            </article>
+            <article class="col-12">      
+                <p>¿Quienes son las mentes maestras -o macabras- detrás de esto? <strong>George Stranahan</strong> -doctor en Física, amante del trecking, fotógrafo profesional, escritor y fundador del Centro de Físicos de Aspen – dueño de una cervecería en Woody Creek, Colorado desde 1990 con <strong>Richard McIntyre</strong>, una persona que sigue adelantada a su tiempo. La mezcla de mente progresiva de Richard con esa mente aventurera-ciencia dura de Mike convergieron en crear una marca que se hace notar. </p>
+            </article>                        
+            <picture class="col-12 col-md-6">
+                <source media="(min-width: 768px)" srcset="img/ralph.jpg" class="d-block w-100 img-fluid">
+                <img class="fotosparrafo d-block w-100 img-fluid" src="img/ralph_mobile.jpg" alt="Ralph Steadman">
+            </picture>
+            <article class="col-12 col-md-6">
+                <p><strong>Ralph Steadman</strong>, un amigo de la casa y vegano acérrimo, nos ayudó con el diseño de la etiqueta y el nombre.  Todo surgió con un pedido entre amigos. "Ralph, por favor. Te lo pido. Por favor, haz una o dos etiquetas para George. Lo que sí la etiqueta debe incluir una de mis frases sobre sabiduría y la bebida" - H. La H es por Hunter S. Thompson, un longevo amigo e inquilino (aunque nunca pagó la renta) de George. Ralph? No podía ser otro más que el grande y único de <strong>Ralph Steadman</strong>. Flying Dog es una marca que cada paso que ha dado en su desarrollo y crecimiento tiene como parte importante el trabajo y pasión de amigos. Camadería y sinceridad como sólo los verdaderos amigos tienen entre ellos. Por eso Flying Dog es una cerveza distinta a las demás.</p>
+            </article>
+            <article class="col-12">
+                <p>Ralph en vivo en la BBC tiró de la nada “<strong>Flying Dog</strong> hace buenas cervezas y no es joda”. Flying Dog tiene su base en rebeldía, en decir lo que pensamos y nos encanta que Ralph haya expuesto nuestra marca de la forma más honesta posible. Sin pelos en la lengua y tal cual es. Los veganos podemos ser directos, sin vueltas y sin reprimirnos nuestros pensamientos -o los de Ralph en este caso-. Esta rebeldía no quita que nosotros veamos, apreciemos y hagamos de la producción de nuestra cerveza como si se tratase de hacer arte. El hacer cosas bellas, transgresoras y buenas es arte. Y nuestra cerveza lo es. ¿O acaso conocés otra cerveza vegana tan original como la nuestra?</p>
+            </article>
+            <article class="col-12">                
+                <p>Flying Dog nació como una productora de cerveza que va contra la corriente. En la era de la corrección política, algo que sea políticamente incorrecto. Por eso, cada una de nuestras cervezas tiene algo de rebelde, sarcástico y humor negro. Encima, aumentando nuestro compromiso de cuidado hacia el mundo. Ayudando a pequeños productores, reciclando botellas, sin animales y buscando formas de incluirla en recetas de cocina vegana/vegetariana. Hicimos más por la economía y el medio ambiente que cualquier gobierno y ONG unidas. La libertad de hacerlo a tu gusto, es rebeldía en estado salvaje.</p>
+            </article>
+            <picture class="col-12 col-md-6">
+                <source media="(min-width: 768px)" srcset="img/beers.jpg" class="d-block w-100 img-fluid">
+                <img class="fotosparrafo d-block w-100 img-fluid" src="img/beers_mobile.jpg" alt="Cervezas de Flying Dog">
+            </picture>            
+            <article class="col-12 col-md-6">
+                <p>“La buena gente toma buena cerveza” Amamos esa frase, tanto, que es nuestro lema. Y buscamos aplicarlo en nuestra cultura de trabajo haciendo productos que cuidan a las personas, a los animales y a nuestro hogar llamado Tierra con un producto 100% vegano. Nuestra cerveza nació a partir de la loca idea de un grupo de amigos, y en cada hito en la historia de Flying Dog, hay un amigo que formó parte y lo hizo aplicando nuestros principíos. Por eso es una buena cerveza, porque tiene como base la amistad, el arte, la naturaleza y los animales.</p>
+            </article>            
+        </div>
+    </section>
+    <section id="Media" class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UxV_xf8Koa4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="Contacto" class="container">
+        <h2>Contactanos</h2>
+        <form method="post" action="http://recursos.grodriguez.com.ar/FORM/">
+               <div class="row justify-content-center">
+                    <div class="col-md-8 pb-3">
+                        <div class="form-group row">
+                                <label for="nombre" class="col-md-2 col-form-label">Nombre </label>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control" id="nombre" name="Nombre" placeholder="Nombre" required>
+                                </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="apellido" class="col-md-2 col-form-label">Apellido</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="apellido" name="Apellido" placeholder="Apellido" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="mail"class="col-md-2 col-form-label">EMail</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="mail" name="Email" placeholder="E-Mail (nombre@casilla.com)" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea  id="Comentario" class="form-control" placeholder= "Escriba su comentario..." name="comentario" cols="30" rows="5"></textarea>
+                        </div>   
+                <div>
+                    <input class="btn btn-outline-success btn-block my-1" id="enviosuscripcion" type="submit" value="Enviar">
+                </div>
+        </form>
+    </section>
+    <footer class="container">
+        <div class="row center-content-md-around text-center">
+            <div id="autor" class="col-md-12">
+                <p><strong>Palma Juan Manuel | Interacción con Dispositivos Móviles | T. Noche | 2A | 2020 </p>
+            </div>
+        </div>    
+        <div class="row align-items-center">
+            <div id="social" class="col-md-4 col-sm-12 col-12">                
+                <p><a href="https://www.facebook.com/j1jdns/" target="_blank"><i class="fab fa-facebook-square"></i></a></p>
+            </div>
+            <div id="social" class="col-md-4 col-12">                        
+                <p><a href="http://www.instagram.com/j1jdesign" target="_blank"><i class="fab fa-instagram"></i></a></p>
+            </div>
+            <div id="social" class="col-md-4 col-12">                        
+                <p><a href="https://www.linkedin.com/in/juanmpalma/" target="_blank"><i class="fab fa-linkedin-in"></i></a></p>                
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div id="copyright" class="col-md-12">
+                <p>©2020 Flying Dog Brewery. 4607 Wedgewood Blvd, Frederick, Maryland. No sirven cerveza en prisión, con lo cual bebe responsablemente </p>
+            </div>    
+        </div>
+    </footer>   
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/animaScroll.js"></script>
+</body>
+</html>

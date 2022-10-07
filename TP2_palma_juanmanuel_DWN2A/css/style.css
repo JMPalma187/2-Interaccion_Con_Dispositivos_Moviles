@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 58px;
+    height: 35px;    
+    background: url("../img/logo_celular.png") center center no-repeat;
+    font-size: 0;
+    position: absolute;
+    left: 20px;
+    z-index: 1031;
+}
+
+header{
+    position: relative;
+}
+
+#barra {
+    background: #057b5e;
+    padding: .7em;    
+}
+
+#barramenu{
+    padding: 0;
+    background: #057b5e;
+}
+
+.active {
+    background: #057b5e;
+}
+.active a {
+    color: white !important;
+}
+#banner{
+    padding: 0;
+}
+
+#Why {
+    background: url("../img/fondo_secciones_verde.png") repeat;
+    }
+
+#Why section {    
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#Why section div {
+    margin: 1em;
+}
+
+#Why i {
+    color: #fff;
+    font-size: 4em;
+    padding: 40px;
+     }
+
+#Why h2 {
+        color: #fff;
+       }
+
+#Why h3 {
+       color: #fff;
+       font-size: 1.8em;
+     }
+
+#Why p {
+   color: #fff;    
+   margin: 1em 0;
+   font-size: 1em;
+   line-height: 1.4em;
+}  
+
+#Nosotros {
+    background: #eee;
+}
+
+#Media {
+    text-align: center;    
+    margin: auto;   
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+}
+#Media iframe, object, embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
+
+iframe {
+    border: 0;
+}
+
+#Contacto {
+    background: #eee;
+    
+}
+
+.botonmas {
+    background: #057b5e;
+    color: white;
+    border: none;
+}
+.botonmas:hover {
+    color: #057b5e;
+    background: white;
+}
+
+.display-4 {
+    padding-left: 0.3em;
+}
+      
+input[type="submit"] {
+            background: #057b5e;
+            color: white;
+        }
+input[type="submit"]:hover {
+            background: white;
+            color: #057b5e;
+            border-color: #057b5e;
+        }       
+   
+
+h2 {
+    margin-bottom: 1em;
+    font-size: 2.3em;
+}
+
+h3.history {
+    font-size: 1.8em;
+    margin: .7em 0;
+}
+
+.banner_resp {
+    width: 100%;
+    height: auto;
+  }
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+p.history {
+    text-align: justify;
+    margin: 1em 0 2em 0;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+footer{
+    padding: 0;
+    background: #057b5e;
+}
+
+footer p {
+    font-size: .8em;
+    color: white;
+    background: #057b5e;
+    margin: 0;
+    text-align: center;    
+    padding-top: .8em;
+    padding-bottom: .8em;  
+}
+
+
+footer p a {
+    text-decoration: none;
+    display: inline-block;    
+    background: #057b5e;
+    color: white;
+    text-align: center;
+    line-height: 2em;
+}
+
+footer p a i{    
+    font-size: 3em;
+}
+
+footer p a i:hover{
+    color: orange;
+}
+
+img.fotos-history {
+    max-width: 100%;
+    padding: 1em;
+}
+
+section {
+    padding: 1.25em;
+}
+
+.fotosparrafo > * {
+    vertical-align: middle;
+  }  
+
+@media screen and (min-width: 768px) {
+
+    #logo {  
+        background: url("../img/logo.png") center center no-repeat;
+        font-size: 0;
+        position: absolute;
+        top: 8px;
+        left: 20px;
+        z-index: 1031;
+        width: 170px;
+        height: 40px;
+    }
+    
+}
